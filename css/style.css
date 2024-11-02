@@ -1,0 +1,624 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.shadow-md{
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
+}
+.font-montserrat{
+    font-family: "Montserrat", sans-serif;
+}
+.font-poppins{
+    font-family: "Poppins", sans-serif;
+}
+.font-15{
+    font-size: 15px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-13 {
+    font-size: 13px;
+}
+.mt-6{
+    margin-top: 90px;
+}
+.mt-7{
+    margin-top: 140px;
+}
+.color-1{
+    color: #343434;
+}
+.color-2{
+    color: #999999;
+}
+.color-3{
+    color: #748182;
+}
+.fw-b-800{
+    font-weight: 800;
+}
+.fw-b-full{
+    font-weight: 900;
+}
+.bg-color-4{
+    background-color: #1C1C1C;
+}
+.bg-color-5{
+    background-color: #F7F7F7;
+}
+.font-6{
+    color: #748182;
+    font-size: 15px;
+    font-weight:400;
+    word-spacing: 2px;   
+    line-height: 24px; 
+    max-width: 940px;
+    margin: auto;
+}
+.bg-color-7{
+    background-color: #5A5A5A;
+}
+h2.main-heading{
+    color: #343434;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 900;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    z-index: 2;
+}
+h2.main-heading::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 25px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.shadow-inset{
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+}
+.main-padding{
+    padding: 100px 0;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)), url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+header h2{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 55px;
+}
+header h1{
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 200;
+}
+header h1::after{
+    content: "";
+    font-weight:400;
+    animation: header-animation 7s infinite;
+}
+@keyframes header-animation {
+    0%{
+        content: 'Larry Daniels|';
+    }
+    10%{
+        content: 'Larry Daniels|';
+    }
+    11%{
+        content: 'Larry Daniel|';
+    }
+    12%{
+        content: 'Larry Danie|';
+    }
+    13%{
+        content: 'Larry Dani|';
+    }
+    14%{
+        content: 'Larry Dan|';
+    }
+    15%{
+        content: 'Larry Da|';
+    }
+    16%{
+        content: 'Larry D|';
+    }
+    17%{
+        content: 'Larry|';
+    }
+    18%{
+        content: 'Larr|';
+    }
+    19%{
+        content: 'La|';
+    }
+    20%{
+        content: 'L|';
+    }
+    21%{
+        content: '|';
+    }
+    32%{
+        content: '|';
+    }
+    33%{
+        content: 'D|';
+    }
+    34%{
+        content: 'De|';
+    }
+    35%{
+        content: 'Dev|';
+    }
+    36%{
+        content: 'Deve|';
+    }
+    37%{
+        content: 'Devel|';
+    }
+    38%{
+        content: 'Develo|';
+    }
+    39%{
+        content: 'Develop|';
+    }
+    40%{
+        content: 'Developer|';
+    }
+    50%{
+        content: 'Developer|';
+    }
+    51%{
+        content: 'Develop|';
+    }
+    52%{
+        content: 'Develo|';
+    }
+    53%{
+        content: 'Devel|';
+    }
+    54%{
+        content: 'Deve|';
+    }
+    55%{
+        content: 'Dev|';
+    }
+    56%{
+        content: 'De|';
+    }
+    57%{
+        content: 'D|';
+    }
+    58%{
+        content: '|';
+    }
+    65%{
+        content: '|';
+    }
+    66%{
+        content: 'D|';
+    }
+    67%{
+        content: 'De|';
+    }
+    68%{
+        content: 'Des|';
+    }
+    69%{
+        content: 'Desi|';
+    }
+    70%{
+        content: 'Desig|';
+    }
+    71%{
+        content: 'Design|';
+    }
+    72%{
+        content: 'Designer|';
+    }
+    78%{
+        content: 'Designer|';
+    }
+    79%{
+        content: 'Design|';
+    }
+    80%{
+        content: 'Desig|';
+    }
+    81%{
+        content: 'Desi|';
+    }
+    82%{
+        content: 'Des|';
+    }
+    83%{
+        content: 'D|';
+    }
+    84%{
+        content: '|';
+    }
+    90%{
+        content: '|';
+    }
+    91%{
+        content: 'L|';
+    }
+    92%{
+        content: 'La|';
+    }
+    93%{
+        content: 'Larr|';
+    }
+    94%{
+        content: 'Larry|';
+    }
+    95%{
+        content: 'Larry D|';
+    }
+    96%{
+        content: 'Larry Dan|';
+    }
+    97%{
+        content: 'Larry Dani|';
+    }
+    98%{
+        content: 'Larry Danie|';
+    }
+    98%{
+        content: 'Larry Daniel|';
+    }
+    99%{
+        content: 'Larry Daniels|';
+    }
+}
+.nav-item .nav-link{
+    color: #111;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    padding: 0 !important;
+    width: fit-content;
+    margin: auto;
+}
+.navbar-nav .nav-link.active{
+    color: #111;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+.navbar-nav .nav-link.active::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: #111;
+    left: 0;
+    bottom: 0;
+    animation: nav-animation 0.5s forwards;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    color: #111;
+}
+@keyframes nav-animation {
+    100%{
+        width: 100%;
+    }
+}
+button.navbar-toggler{
+    border: none;
+}
+button.navbar-toggler span{
+    color: #111;
+}
+button.navbar-toggler:focus{
+    border: none;
+    color: white;
+    box-shadow: none;
+}
+.navbar-brand{
+    font-size: 18px;
+    font-weight: 800;
+}
+.progress{
+    height: 28px;
+}
+@media (max-width:767px) {
+    header h1{
+    font-size: 30px;
+    line-height: 36px;
+    }
+}
+.about .buttons button{
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all 0.5s;
+}
+.about .buttons button.l-btn{
+    background-color: white;
+}
+.about .buttons button.l-btn:hover{
+    background-color: #1c1c1c;
+    color: white;
+}
+.about .buttons button.f-btn{
+    background-color: #1c1c1c;
+    color: white;
+}
+.about .buttons button.f-btn:hover{
+    background-color: white;
+    color: #1c1c1c;
+}
+.about picture::before{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.services .card {
+    border: none;
+    background: transparent;
+}
+.services .card .inner{
+    border-radius: 7px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 50px 20px;
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+}
+.services .card h3{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    color:#343434;
+}
+.services .card p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #748182;
+    word-spacing: 2px;
+}
+.services .card span{
+    background-color: #F4F4F4;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.services .card span i{
+    font-size: 30px;
+    transition: 0.5s;
+}
+.services .card:hover i{
+    color: white;
+}
+.services .card:hover span{
+    background-color: #1C1C1C;
+}
+.portfolio button{
+    color: #222222;
+    font-family : "Poppins", sans-serif;
+    font-size: 16px !important;
+    font-weight: 700;
+    line-height: 22.8571px;
+}
+.portfolio button.active{
+    position: relative;
+}
+.portfolio button.active::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 0;
+    background-color: #111;
+    animation: nav-animation 0.5s forwards;
+}
+.items{
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+.portfolio .container-img {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio .img-overlay {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 2;
+    transform: translateY(10px);
+}
+.v-middle {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.portfolio .container-img h6 {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 15px;
+    transform: translateY(-15px);
+    transition: all 0.5s;
+}
+.portfolio .container-img .icon i {
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    background: #111;
+    color: #eeeeee;
+}
+.portfolio .img-overlay .icon i:hover {
+    background: transparent;
+    color: #000;
+}
+.portfolio .img-overlay:hover h6,
+.portfolio .img-overlay:hover .icons{
+    transform: translateY(0);
+}
+.portfolio .container-img:hover .img-overlay{
+    opacity: 1;
+    transform: translateY(0);
+}
+.carousel-indicators button{
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #D6D6D6 !important;
+}
+.carousel-indicators button:hover{
+    background-color: #869791 !important;
+}
+.carousel-indicators button.active{
+    background-color: #869791 !important;
+}
+.team .inner:hover .layer{
+    width: 96%;
+    height: 96%;
+    opacity: 1;
+    transform:translate(-50%,-50%) scale(1) rotateY(360deg);
+}
+.team picture:hover img{
+    transform: scale(1.2) ;
+}
+.team picture img{
+    transition: 0.5s;
+}
+.layer{
+    opacity: 0;
+    transition: 0.5s;
+    position:absolute;
+    width: 96%;
+    height: 96%;
+    background-color: rgba(255, 255, 255, 0.9);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0.5)  rotateY(180deg);
+}
+.layer .icons a.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #111;
+}
+.layer .icons a.icon:hover{
+    background-color: white;
+}
+.layer .icons a.icon:hover i{
+    color: #111;
+}
+.layer .icons .icon i{
+    font-size: 20px;
+    color: white;
+}
+.contact .inner span{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #F4F4F4;
+    margin: auto;
+    transition: 0.3s;
+}
+.contact .inner span i{
+    transition: 0.3s;
+    font-size: 25px;
+    color: #343434;
+}
+.contact .inner:hover span{
+    background-color: #1C1C1C;
+}
+.contact .inner:hover i{
+    color: #F4F4F4;
+}
+form input,
+textarea{
+    border: none;
+    background-color: #F4F4F4;
+    padding: 10px;
+    border-radius: 5px;
+}
+form input,
+textarea:focus{
+    outline: none;
+}
+form input::placeholder{
+    font-size: 14px;
+}
+form textarea::placeholder{
+    font-size: 14px;
+}
+textarea{
+    width: 100%;
+    height: 190px;
+    margin-top: 20px;
+}
+form button{
+    padding: 10px 40px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all 0.5s;
+    background-color: #1c1c1c;
+    color: white;
+}
+form button:hover{
+    background-color: white;
+    color: #1c1c1c;
+}
+footer p{
+    color: #748182;
+}
